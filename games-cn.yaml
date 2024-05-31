@@ -1,4 +1,6 @@
 # Github
+# Steam
+# Epic-Games
 payload:
 - DOMAIN-SUFFIX,github.com,Github
 - DOMAIN-SUFFIX,githubassets.com,Github
