@@ -1,12 +1,11 @@
-payload:
 # Github
+payload:
 - DOMAIN-SUFFIX,github.com,Github
 - DOMAIN-SUFFIX,githubassets.com,Github
 - DOMAIN-SUFFIX,githubusercontent.com,Github
 - DOMAIN-SUFFIX,ghcr.io,Github
 - DOMAIN-SUFFIX,github.io,Github
 - DOMAIN-SUFFIX,githubapp.com,Github
-#Steam
 - DOMAIN-SUFFIX,fanatical.com,Steam
 - DOMAIN-SUFFIX,humblebundle.com,Steam
 - DOMAIN-SUFFIX,steamcommunity.com,Steam
@@ -17,7 +16,6 @@ payload:
 - DOMAIN-SUFFIX,valvesoftware.com,Steam
 - DOMAIN-KEYWORD,steamuserimages,Steam
 - DOMAIN-KEYWORD,steamcontent,Steam
-# Epic-Games
 - DOMAIN-SUFFIX,epicgames.com
 - DOMAIN-SUFFIX,epicgames.dev
 - DOMAIN-SUFFIX,epicgames.net
