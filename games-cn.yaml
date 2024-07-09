@@ -25,3 +25,5 @@ payload:
 - DOMAIN-SUFFIX,in.appcenter.ms
 - DOMAIN-SUFFIX,v2ex.com
 - DOMAIN-SUFFIX,cloudflare.com
+- DOMAIN-KEYWORD,wiki,Wiki
+- DOMAIN-KEYWORD,cloudflare,cloudflare
