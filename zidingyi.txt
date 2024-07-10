@@ -3,3 +3,4 @@ payload:
 - DOMAIN-KEYWORD,qq,DIRECT
 - DOMAIN-SUFFIX,www.htvaxfunbqryrlgf.com,DIRECT
 - IP-CIDR,8.217.111.190/32
+- IP-CIDR,8.217.104.207/32
