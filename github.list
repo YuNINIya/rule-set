@@ -1,24 +1,25 @@
-- DOMAIN-KEYWORD,github
-- DOMAIN-SUFFIX,github.com
-- DOMAIN-SUFFIX,githubassets.com
-- DOMAIN-SUFFIX,githubusercontent.com
-- DOMAIN-SUFFIX,ghcr.io
-- DOMAIN-SUFFIX,github.io
-- DOMAIN-SUFFIX,githubapp.com
-- DOMAIN-SUFFIX,fanatical.com
-- DOMAIN-SUFFIX,humblebundle.com
-- DOMAIN-SUFFIX,steamcommunity.com
-- DOMAIN-SUFFIX,steampowered.com
-- DOMAIN-SUFFIX,steamstatic.com
-- DOMAIN-SUFFIX,steam-chat.com
-- DOMAIN-SUFFIX,steamusercontent.com
-- DOMAIN-SUFFIX,valvesoftware.com
-- DOMAIN-KEYWORD,steamuserimages
-- DOMAIN-KEYWORD,steamcontent
-- DOMAIN-SUFFIX,epicgames.com
-- DOMAIN-SUFFIX,epicgames.dev
-- DOMAIN-SUFFIX,epicgames.net
-- DOMAIN-SUFFIX,unrealengine.com
-- DOMAIN-SUFFIX,in.appcenter.ms
-- DOMAIN-SUFFIX,v2ex.com
-- DOMAIN-SUFFIX,cloudflare.com
+payload:
+  - DOMAIN-KEYWORD,github
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubapp.com
+  - DOMAIN-SUFFIX,fanatical.com
+  - DOMAIN-SUFFIX,humblebundle.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,valvesoftware.com
+  - DOMAIN-KEYWORD,steamuserimages
+  - DOMAIN-KEYWORD,steamcontent
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,epicgames.dev
+  - DOMAIN-SUFFIX,epicgames.net
+  - DOMAIN-SUFFIX,unrealengine.com
+  - DOMAIN-SUFFIX,in.appcenter.ms
+  - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,cloudflare.com
