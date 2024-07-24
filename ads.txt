@@ -1109,3 +1109,5 @@ payload:
 - "+.xlog.jd.com"
 - "+.api-access.pangolin-sdk-toutiao.com"
 - "+.mssdk.volces.com"
+- "+.vcode-od.vivo.com.cn"
+- "+.aeventlog.beacon.qq.com"
