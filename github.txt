@@ -2,7 +2,7 @@ payload:
 - DOMAIN-SUFFIX,github.com,Github
 - DOMAIN-SUFFIX,githubassets.com,Github
 - DOMAIN-SUFFIX,githubusercontent.com,Github
-- DOMAIN-SUFFIX,raw.githubusercontent.com,no- resolve
+- DOMAIN-KEYWORD,raw.githubusercontent.com
 - DOMAIN-SUFFIX,ghcr.io,Github
 - DOMAIN-SUFFIX,github.io,Github
 - DOMAIN-SUFFIX,githubapp.com,Github
