@@ -1113,3 +1113,4 @@ payload:
 - "+.adsmind.ugdtimg.com"
 - "+.apmplus.volces.com"
 - "+.p26-sign.douyinpic.com"
+- "+.pgdt.ugdtimg.com"
