@@ -15,3 +15,4 @@ payload:
 - DOMAIN-SUFFIX,cloudflare.com
 - DOMAIN-KEYWORD,wiki,Wiki
 - DOMAIN-KEYWORD,cloudflare,cloudflare
+- DOMAIN-KEYWORD,github
