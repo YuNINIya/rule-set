@@ -1108,3 +1108,4 @@ payload:
 - "+.dspsdk.pinduoduo.com"
 - "+.xlog.jd.com"
 - "+.api-access.pangolin-sdk-toutiao.com"
+- "+.mssdk.volces.com"
