@@ -1109,3 +1109,4 @@ payload:
 - "+.vcode-od.vivo.com.cn"
 - "+.aeventlog.beacon.qq.com"
 - "+.ipv4.gdt.qq.com"
+- "+.adsmind.ugdtimg.com"
