@@ -1112,3 +1112,4 @@ payload:
 - "+.ipv4.gdt.qq.com"
 - "+.adsmind.ugdtimg.com"
 - "+.apmplus.volces.com"
+- "+.p26-sign.douyinpic.com"
