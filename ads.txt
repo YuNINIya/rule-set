@@ -1100,8 +1100,6 @@ payload:
 - "+.sdk.beizi.biz"
 - "+.i.kejet.net"
 - "+.api-htp.beizi.biz"
-- "+.play-fe.googleapis.com"
-- "+.alt1-mtalk.google.com"
 - "+.adx-track.domob.cn"
 - "+.alt3-mtalk.google.com"
 - "+.dspsdk.pinduoduo.com"
