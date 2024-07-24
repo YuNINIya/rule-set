@@ -1106,3 +1106,6 @@ payload:
 - "+.alt1-mtalk.google.com"
 - "+.adx-track.domob.cn"
 - "+.alt3-mtalk.google.com"
+- "+.dspsdk.pinduoduo.com"
+- "+.xlog.jd.com"
+- "+.api-access.pangolin-sdk-toutiao.com"
