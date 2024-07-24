@@ -1,4 +1,3 @@
-#RULE-SET,AntiAd,REJECT
 payload:
 - "+. es-res.flyme.cn"
 - "+. ssp-res.flyme.cn"
