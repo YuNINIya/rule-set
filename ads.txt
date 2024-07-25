@@ -1,4 +1,4 @@
-payload:
+﻿payload:
   - '+.ad.zijieapi.com'
   - '+.ads3-normal-hl.zijieapi.com'
   - '+.ads3-normal-lf.zijieapi.com'
@@ -37,6 +37,7 @@ payload:
   - '+.unionstatis.dftoutiao.com'
   - '+.umeng.com.gds.alibabadns.com'
   - '+.ad.12306.cn'
+  - "+.mssdk.volces.com"
   - '+.ad.qq.com'
   - '+.adfilter.imtt.qq.com'
   - '+.adping.qq.com'
@@ -84,6 +85,81 @@ payload:
   - '+.ads-marketing-vivofs.vivo.com.cn'
   - '+.vivocha.com'
   - '+.adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn'
+  - "+.*tsdk.vivo.com.cn"
+  - "+.ads-marketing-vivofs.vivo.com.cn"
+  - "+.st-ads-jssdk.vivo.com.cn"
+  - "+.abtest-ch.snssdk.com"
+  - "+. adlog.vivo.com.cn"
+  - "+. adreq.vivo.com.cn"
+  - "+. adsdk.vivo.com.cn"
+  - "+. adsstatic.vivo.com.cn"
+  - "+. adxlog.vivo.com.cn"
+  - "+. stnetsdk.appstore.vivo.com.cn"
+  - "+. monitor-stsdk.vivo.com.cn"
+  - "+. onrt-stsdk.vivo.com.cn"
+  - "+. ort-stsdk.vivo.com.cn"
+  - "+. pnrt-stsdk.vivo.com.cn"
+  - "+. prt-stsdk.vivo.com.cn"
+  - "+. stnetsdk.vivo.com.cn"
+  - "+. stsdk.vivo.com.cn"
+  - "+. bronrt.stsdk.vivo.com.cn"
+  - "+. brort.stsdk.vivo.com.cn"
+  - "+. brpnrt.stsdk.vivo.com.cn"
+  - "+. brprt.stsdk.vivo.com.cn"
+  - "+. onrt.stsdk.vivo.com.cn"
+  - "+. ort.stsdk.vivo.com.cn"
+  - "+. pnrt.stsdk.vivo.com.cn"
+  - "+. prt.stsdk.vivo.com.cn"
+  - "+. vcardsdkservice.vivo.com.cn"
+  - "+.adsdk.vivo.com"
+  - "+.adxlog-adnet.vivo.com.cn"
+  - "+.com.advertisingsdk.vivo.strategy"
+  - "+.VivoAdStrategy.Runtime"
+  - "+.dsplog-adnet.vivo.com.cn"
+  - "+.st-adsgame.vivo.com.cn"
+  - "+.adnetstatic.vivo.com.cn"
+  - "+.adsdk.vivo.com.cn"
+  - "+.adlog.vivo.com.cn"
+  - "+.adreq.vivo.com.cn"
+  - "+.adsstatic.vivo.com.cn"
+  - "+.asia-analyzer-appstore.vivoglobal.com"
+  - "+.asia-comonrt-stsdk.vivoglobal.com"
+  - "+.asia-comort-stsdk.vivoglobal.com"
+  - "+.asia-ex-adlog.vivoglobal.com"
+  - "+.asia-exstsdk.vivoglobal.com"
+  - "+.asia-onrt-stsdk.vivoglobal.com"
+  - "+.asia-ort-stsdk.vivoglobal.com"
+  - "+.asia-pnrt-stsdk.vivoglobal.com"
+  - "+.asia-prt-stsdk.vivoglobal.com"
+  - "+.asia-stsdk.vivoglobal.com"
+  - "+.bronrt.stsdk.vivo.com.cn"
+  - "+.brort.stsdk.vivo.com.cn"
+  - "+.monitor-stsdk.vivo.com.cn"
+  - "+.onrt-stsdk.vivo.com.cn"
+  - "+.onrt-stsdk.vivoglobal.com"
+  - "+.ort-stsdk.vivo.com.cn"
+  - "+.picanalysis.vivo.com.cn"
+  - "+.pnrt-stsdk.vivo.com.cn"
+  - "+.prt-stsdk.vivo.com.cn"
+  - "+.prt.stsdk.vivoglobal.com"
+  - "+.stnetsdk.appstore.vivo.com.cn"
+  - "+.stnetsdk.vivo.com.cn"
+  - "+.stsdk.vivo.com.cn"
+  - "+.stsdk.vivoglobal.com"
+  - "+.tr-domaincfg.vivoglobal.com"
+  - "+.tr-romsp-unifyconfig.vivoglobal.com"
+  - "+.tr-st-sl.vivoglobal.com"
+  - "+.tr-timesync.vivoglobal.com"
+  - "+.tr-vcode-api.vivoglobal.com"
+  - "+.tr-vcode-od.vivoglobal.com"
+  - "+.vcardsdkservice.vivo.com.cn"
+  - "+.vivo-barefootpolska.com"
+  - "+.vivo.papiashvili.top"
+  - "+.vivobarefootpolska.com"
+  - "+.vivobarefootpolskapl.com"
+  - "+.vivobarefootsklep.pl"
+  - "+.vivobarefotpl.com"
+  - "+.adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn"
   - '+.mistat.xiaomi.com'
   - '+.ad.intl.xiaomi.com'
   - '+.ad.xiaomi.com'
@@ -96,7 +172,7 @@ payload:
   - '+.gallery.pandora.xiaomi.com'
   - '+.jellyfish.pandora.xiaomi.com'
   - '+.misc.pandora.xiaomi.com'
-  - '+.mishop.cdn.pandora.xiaomi.com'	
+  - '+.mishop.cdn.pandora.xiaomi.com'
   - '+.mishop.pandora.xiaomi.com'
   - '+.notice.game.xiaomi.com'
   - '+.o2o.api.xiaomi.com'
