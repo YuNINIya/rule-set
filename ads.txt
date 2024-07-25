@@ -431,3 +431,5 @@
   - '+.baiduyubaidu.com'
   - '+.baiduzhidahao.cc'
   - '+.adsdkapi.dxys.pro'
+  - '+.link.appshare.muge.info'
+  - '+.appshare.muge.info'
