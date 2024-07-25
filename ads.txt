@@ -35,7 +35,13 @@
   - '+.pcsoftwords.dftoutiao.com'
   - '+.position.dftoutiao.com'
   - '+.unionstatis.dftoutiao.com'
+  - '+.api-access.pangolin-sdk-toutiao.com'
+  - '+.p3-be-pack-sign.pglstatp-toutiao.com'
+  - '+.log-api.pangolin-sdk-toutiao-b.com'
+  - '+.api-access.pangolin-sdk-toutiao1.com'
+  - '+.toblog.ctobsnssdk.com'
   - '+.umeng.com.gds.alibabadns.com'
+  - '+.umengacs.m.taobao.com'
   - '+.ad.12306.cn'
   - "+.mssdk.volces.com"
   - '+.ad.qq.com'
@@ -423,3 +429,4 @@
   - '+.baiduvjsbvjknlsvsv.com'
   - '+.baiduyubaidu.com'
   - '+.baiduzhidahao.cc'
+  - '+.adsdkapi.dxys.pro'
