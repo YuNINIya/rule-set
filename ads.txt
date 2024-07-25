@@ -40,6 +40,7 @@
   - '+.log-api.pangolin-sdk-toutiao-b.com'
   - '+.api-access.pangolin-sdk-toutiao1.com'
   - '+.toblog.ctobsnssdk.com'
+  - '+.tobapplog.ctobsnssdk.com'
   - '+.umeng.com.gds.alibabadns.com'
   - '+.umengacs.m.taobao.com'
   - '+.ad.12306.cn'
