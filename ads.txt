@@ -528,6 +528,8 @@
   - 'aa.birdgesdk.com'
   - 'pitk.birdgesdk.com'
   - 'adx-bj-req.anythinktech.com'
+  - 'commdata.v.qq.com'
+  - 'sdkconfig.video.qq.com'
   - '[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com'
   - '[a-zA-Z0-9.-]*-ad.sm.cn'
   - '[a-zA-Z0-9.-]*-ad.video.yximgs.com'
