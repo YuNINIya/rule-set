@@ -527,6 +527,7 @@
   - 'adx-bj.anythinktech.com'
   - 'aa.birdgesdk.com'
   - 'pitk.birdgesdk.com'
+  - 'adx-bj-req.anythinktech.com'
   - '[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com'
   - '[a-zA-Z0-9.-]*-ad.sm.cn'
   - '[a-zA-Z0-9.-]*-ad.video.yximgs.com'
