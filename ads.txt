@@ -472,6 +472,7 @@
   - 'tnc3-alisc1.bytedance.com'
   - 'tnc3-bjlgy.bytedance.com'
   - 'tnc3-bjlgy.toutiaoapi.com'
+  - 'vcode-od.vivo.com.cn'
   - '[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com'
   - '[a-zA-Z0-9.-]*-ad.sm.cn'
   - '[a-zA-Z0-9.-]*-ad.video.yximgs.com'
