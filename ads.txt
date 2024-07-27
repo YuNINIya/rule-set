@@ -532,6 +532,7 @@
   - 'sdkconfig.video.qq.com'
   - 'api.e.qq.com'
   - 'artifact.bytedance.com'
+  - 'update.appstore.vivo.com.cn'
   - '[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com'
   - '[a-zA-Z0-9.-]*-ad.sm.cn'
   - '[a-zA-Z0-9.-]*-ad.video.yximgs.com'
