@@ -2085,6 +2085,7 @@
   - 'adx-track.domob.cn'
   - 'alt3-mtalk.google.com'
   - 'vcode-or.vivo.com.cn'
+  - 'guid.tpns.tencent.com'
   - '[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com'
   - '[a-zA-Z0-9.-]*-ad.sm.cn'
   - '[a-zA-Z0-9.-]*-ad.video.yximgs.com'
