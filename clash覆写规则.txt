@@ -1,0 +1,77 @@
+// ===== 远程规则集通用配置 =====
+const ruleProviderCommon = {
+  "type": "http",
+  "format": "yaml",
+  "interval": 86400
+};
+
+// ===== 远程规则集清单 =====
+const ruleProviders = {
+  "reject": {
+    ...ruleProviderCommon,
+    "behavior": "domain",
+    "url": "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt",
+    "path": "./ruleset/reject.yaml"
+  }
+};
+
+// ===== 代理组通用配置 =====
+const groupBaseOption = {
+  "interval": 300,
+  "timeout": 3000,
+  "url": "https://www.gstatic.com/generate_204",
+  "lazy": true,
+  "max-failed-times": 3,
+  "hidden": false
+};
+
+// ===== 程序入口 =====
+function main(config, profileName) {
+  const proxyCount = config?.proxies?.length ?? 0;
+  const proxyProviderCount =
+    config && typeof config["proxy-providers"] === "object" && config["proxy-providers"]
+      ? Object.keys(config["proxy-providers"]).length
+      : 0;
+  if (proxyCount === 0 && proxyProviderCount === 0) {
+    throw new Error("配置文件中未找到任何代理");
+  }
+
+  // 覆盖代理组
+  config["proxy-groups"] = [
+    { ...groupBaseOption, "name": "🚀 节点选择", "type": "select",
+      "include-all": true, "proxies": ["DIRECT"] },
+    { ...groupBaseOption, "name": "🌍 全局直连", "type": "select",
+      "include-all": false, "proxies": ["DIRECT", "🚀 节点选择"] },
+    { ...groupBaseOption, "name": "🐟 漏网之鱼", "type": "select",
+      "include-all": false, "proxies": ["🚀 节点选择", "DIRECT"] }
+  ];
+
+  // 写入远程规则集声明，必须在 rules 引用它之前
+  config["rule-providers"] = ruleProviders;
+
+  // 覆盖规则
+  config["rules"] = [
+    // 1. DNS 服务器直连排除
+    "IP-CIDR,223.5.5.5/32,DIRECT,no-resolve",
+    "IP-CIDR,223.6.6.6/32,DIRECT,no-resolve",
+    "IP-CIDR,119.29.29.29/32,DIRECT,no-resolve",
+    "IP-CIDR,1.12.12.12/32,DIRECT,no-resolve",
+    "IP-CIDR,1.1.1.1/32,DIRECT,no-resolve",
+
+    // 2. 自定义规则
+    "DOMAIN-KEYWORD,google,🚀 节点选择",
+
+    // 3. 远程规则集
+    "RULE-SET,reject,REJECT",
+
+    // 4. 业务规则
+    "DOMAIN-SUFFIX,cn,🌍 全局直连",
+    "GEOIP,CN,🌍 全局直连",
+    "GEOIP,HK,🚀 节点选择",
+
+    // 5. 兜底
+    "MATCH,🐟 漏网之鱼"
+  ];
+
+  return config;
+}
